@@ -1,0 +1,44 @@
+.header{font-family: 'Chakra_Petch'; color: #ffffff}
+
+/* definir as propriedades do topo */
+header{width: 100%; 
+       height: 40px; 
+       background-color: rgba(0, 0, 0, 0.5); 
+       position: absolute; 
+       top: 0;
+}
+
+/* definir as propriedades da logo*/
+.logo{position: absolute; 
+      width: 100px; 
+      height: auto;}
+.logo {width: 90%; 
+       margin-left: 10%;
+}
+
+/* Estilizando a cor da logo */
+.logo h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #04e6fa; /* Substitua #ff0000 pelo código da cor desejada */
+}
+
+/* definir as propriedades do menu*/
+nav {position: absolute; 
+     right: 30px; 
+     bottom: 0px;
+}
+nav ul li {float: left; 
+           color: #ffffff; 
+           width: auto; 
+           margin: 0.8em; 
+           font-size: 15px; 
+           font-family: 'verdana'; 
+           list-style-type: style none;}
+
+nav ul li a {text-emphasis: none; 
+             color: #ffffff;
+             text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav ul li a:hover{color:#04e6fa}
+nav ul {list-style: none;}
